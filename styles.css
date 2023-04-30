@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .main-cont {
+  width: 950px;
+  background-color: red;
+}
+
+.twoImg {
+  display: flex;
+  height: 35vh;
+}
+.landScapeImg {
+  width: 600px;
+ 
+}
+.portraitImg {
+  width: 350px;
+ 
+}  */
+
+.square {
+  height: 200px;
+  width: 200px;
+}
+
+#top-squares {
+  display: flex;
+}
+#bottom-squares {
+  display: flex;
+}
+
+#square1 {
+  background-color: blue;
+  position: relative;
+}
+
+#small-square {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  /* transform: translateX(50%); */
+  top: 50%;
+  left: 50%;
+  width: 50px;
+  height: 50px;
+}
+#square2 {
+  background-color: red;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#words {
+  position: relative;
+  top: 40px;
+  color: white;
+}
+#small-black-square {
+  background-color: black;
+  /* border: 1px solid black; */
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  margin: 200px;
+}
+
+#square3 {
+  background-color: green;
+}
+#square4 {
+  background-color: yellow;
+}
